@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dr@home Healthcare Services brings trusted medical care to your doorstep across Karachi." />
+  <title>Dr@home | Healthcare at your doorstep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="chat.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Dr@home home">
+        <img src="Drathomelogo.jpeg" alt="Dr@home Healthcare Services" />
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#doctors">Our doctors</a>
+        <a href="#coverage">Coverage</a>
+        <a class="nav-cta" href="#appointment">Book a visit <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Healthcare, where you are</p>
+          <h1>Better care begins <em>at home.</em></h1>
+          <p class="hero-intro">Professional medical treatment, nursing, and wellness support delivered to your doorstep by a team you can trust.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#appointment">Book your appointment <span>↗</span></a>
+            <a class="phone-link" href="tel:03008251330"><span class="phone-mark">+</span><span><small>Call us today</small>0300 8251330</span></a>
+          </div>
+          <div class="hero-proof"><div class="proof-avatars"><span>NS</span><span>RK</span><span>GK</span></div><p><strong>Trusted by families across Karachi</strong><br>Personalized care, without the waiting room.</p></div>
+        </div>
+        <div class="hero-visual reveal reveal-delay">
+          <div class="hero-image-frame"><img src="Pictures/Family physician.jpg" alt="Family physician providing care at home" /></div>
+          <div class="floating-note"><span class="check-icon">✓</span><span><strong>Care that comes to you</strong><small>Home visits across Karachi</small></span></div>
+          <div class="hero-stamp">DR@<br><span>HOME</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar"><div class="container trust-items"><span>HOME VISITS</span><i></i><span>QUALIFIED DOCTORS</span><i></i><span>COMPASSIONATE NURSING</span><i></i><span>KARACHI-WIDE COVERAGE</span></div></section>
+
+    <section class="intro section-pad" id="services">
+      <div class="container">
+        <div class="section-heading split-heading reveal"><div><p class="eyebrow">What we do</p><h2>Good healthcare should fit<br><em>into your life.</em></h2></div><p>From a routine consultation to ongoing support for a loved one, our dedicated team brings comprehensive medical services right to your home.</p></div>
+        <div class="service-toolbar reveal"><div class="service-count"><strong>Our services</strong><span>19 ways we can help</span></div><label class="search-field"><span>⌕</span><input id="service-search" type="search" placeholder="Find a service" aria-label="Find a service" /></label></div>
+        <div class="service-grid" id="service-grid">
+          <article class="service-card service-card-featured reveal"><img src="Pictures/Old age bedridden care.jpeg" alt="Old age and bedridden care" /><div class="service-overlay"><span class="service-number">06</span><h3>Old age &amp; bedridden care</h3><p>Steady, respectful support for elderly loved ones and their families.</p><a href="#appointment" data-service="Old Age Bedridden Care">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Skin specialist.jpg" alt="Skin specialist service" /><div class="service-overlay"><span class="service-number">02</span><h3>Skin specialist</h3><p>Specialized dermatological care at your convenience.</p><a href="#appointment" data-service="Skin Specialist">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Sugar and diet specialist.jpeg" alt="Sugar and diet specialist service" /><div class="service-overlay"><span class="service-number">03</span><h3>Sugar &amp; diet specialist</h3><p>Expert support for diabetes and healthier habits.</p><a href="#appointment" data-service="Sugar and Diet Specialist">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Physiotherapist.jpeg" alt="Physiotherapy service" /><div class="service-overlay"><span class="service-number">04</span><h3>Physiotherapy</h3><p>Rehabilitation and pain management that promotes mobility.</p><a href="#appointment" data-service="Physiotherapist">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Nursing care.jpeg" alt="Nursing care service" /><div class="service-overlay"><span class="service-number">05</span><h3>Nursing care</h3><p>Compassionate monitoring, medication, and everyday care.</p><a href="#appointment" data-service="Nursing Care">Request this service ↗</a></div></article>
+          <article class="service-card service-card-wide reveal"><img src="Pictures/Family physician.jpg" alt="Family physician home visit" /><div class="service-overlay"><span class="service-number">01</span><h3>Family physician</h3><p>Personalized medical care in the comfort of your home.</p><a href="#appointment" data-service="Family Physician">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Surgical wond dressing.jpeg" alt="Surgical wound dressing" /><div class="service-overlay"><span class="service-number">07</span><h3>Surgical wound dressing</h3><p>Professional wound care that supports safe healing.</p><a href="#appointment" data-service="Surgical Wound Dressing">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Bedsore dressing and caring.jpeg" alt="Bedsore dressing and care" /><div class="service-overlay"><span class="service-number">08</span><h3>Bedsore dressing &amp; care</h3><p>Specialized care to protect comfort and prevent complications.</p><a href="#appointment" data-service="Bedsore Dressing and Care">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Dengue treatment.jpeg" alt="Dengue treatment" /><div class="service-overlay"><span class="service-number">09</span><h3>Dengue treatment</h3><p>Expert support for dengue symptoms at home.</p><a href="#appointment" data-service="Dengue Treatment">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Typhoid treatment.jpeg" alt="Typhoid treatment" /><div class="service-overlay"><span class="service-number">10</span><h3>Typhoid treatment</h3><p>Personalized treatment plans for a steady recovery.</p><a href="#appointment" data-service="Typhoid Treatment">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Infertility treatment.jpeg" alt="Infertility treatment and counselling" /><div class="service-overlay"><span class="service-number">11</span><h3>Infertility treatment</h3><p>Private treatment and supportive counselling at home.</p><a href="#appointment" data-service="Infertility Treatment and Counseling">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Child vaccination.jpeg" alt="Child vaccination at home" /><div class="service-overlay"><span class="service-number">12</span><h3>Child vaccination</h3><p>Stress-free immunization in familiar surroundings.</p><a href="#appointment" data-service="Child Vaccination at Home">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Child treatment.jpeg" alt="Child treatment" /><div class="service-overlay"><span class="service-number">13</span><h3>Child treatment</h3><p>Routine checkups and pediatric care at home.</p><a href="#appointment" data-service="Child Treatment">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Pneumonia treatment.jpeg" alt="Pneumonia treatment" /><div class="service-overlay"><span class="service-number">14</span><h3>Pneumonia treatment</h3><p>Prompt medical support for a smoother recovery.</p><a href="#appointment" data-service="Pneumonia Treatment">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Minor surgical treatment.jpeg" alt="Minor surgical treatment" /><div class="service-overlay"><span class="service-number">15</span><h3>Minor surgical treatment</h3><p>Selected procedures performed with precision and care.</p><a href="#appointment" data-service="Minor Surgical Treatment">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Minor orthopaedic treatment.jpeg" alt="Minor orthopaedic treatment" /><div class="service-overlay"><span class="service-number">16</span><h3>Minor orthopaedic care</h3><p>Convenient treatment for everyday orthopaedic concerns.</p><a href="#appointment" data-service="Minor Orthopaedic Treatment">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/Hypertension bp treatment.jpeg" alt="Hypertension and blood pressure management" /><div class="service-overlay"><span class="service-number">17</span><h3>Hypertension management</h3><p>Regular monitoring and lifestyle guidance at home.</p><a href="#appointment" data-service="Hypertension BP Management">Request this service ↗</a></div></article>
+          <article class="service-card reveal"><img src="Pictures/IV drip.jpeg" alt="IV drip therapy" /><div class="service-overlay"><span class="service-number">18</span><h3>IV drip</h3><p>Essential fluids and medication administered at home.</p><a href="#appointment" data-service="IV Drip">Request this service ↗</a></div></article>
+          <article class="service-card service-card-wide reveal"><img src="Pictures/Blood test and reporting services.jpeg" alt="Blood test and reporting service" /><div class="service-overlay"><span class="service-number">19</span><h3>Express blood testing</h3><p>Accurate blood testing with reporting within a day.</p><a href="#appointment" data-service="Express Blood Test and Reporting Service">Request this service ↗</a></div></article>
+        </div>
+        <div class="more-services reveal"><span>All services are available at home.</span> Select any service above to request a visit.</div>
+      </div>
+    </section>
+
+    <section class="care-callout section-pad"><div class="container callout-grid"><div class="callout-copy reveal"><p class="eyebrow eyebrow-light">Your health, our priority</p><h2>Care that feels<br><em>personal.</em></h2><p>Every visit is shaped around you. We take the time to listen, explain, and build a care plan that works for your home and your family.</p><a class="button button-light" href="#appointment">Talk to our care team <span>↗</span></a></div><div class="callout-facts reveal reveal-delay"><div><strong>19</strong><span>Home healthcare services</span></div><div><strong>4</strong><span>Qualified doctors</span></div><div><strong>1</strong><span>Simple number to call</span></div></div></div></section>
+
+    <section class="doctors section-pad" id="doctors"><div class="container"><div class="section-heading split-heading reveal"><div><p class="eyebrow">The people behind your care</p><h2>Meet your<br><em>care team.</em></h2></div><p>Experienced professionals, selected for their expertise and their ability to make every patient feel at ease.</p></div><div class="doctor-grid"><article class="doctor-card reveal"><div class="doctor-initials">NS</div><div><h3>Dr. Nadir Suhail</h3><p>MBBS, RMP, MSc HPM</p><span>Ex Senior Medical Officer Healthcare. The Aga Khan University Karachi</span></div></article><article class="doctor-card reveal"><div class="doctor-initials teal">RK</div><div><h3>Dr. Rajesh Kumar</h3><p>MBBS, D. Derm.</p><span>MD in Dermatology · Dow University Karachi</span></div></article><article class="doctor-card reveal"><div class="doctor-initials coral">SK</div><div><h3>Dr. Shamsher Khowaja</h3><p>MBBS, RMP</p><span>General Physician</span></div></article><article class="doctor-card reveal"><div class="doctor-initials gold">GH</div><div><h3>Dr. Ghulam Hussain</h3><p>MBBS, FCPS Orthopedic</p><span>Orthopedic specialist</span></div></article></div></div></section>
+
+    <section class="appointment section-pad" id="appointment"><div class="container appointment-grid"><div class="appointment-intro reveal"><p class="eyebrow">Start with a conversation</p><h2>Book your<br><em>appointment.</em></h2><p>Tell us a little about what you need. Our care coordinator will call you to confirm a convenient time for your visit.</p><div class="contact-detail"><span>Prefer to speak now?</span><a href="tel:03008251330">0300 8251330</a><a href="https://wa.me/923008251330">WhatsApp us ↗</a></div></div><form class="appointment-form reveal reveal-delay" id="appointment-form"><div class="form-heading"><span>01</span><strong>Your details</strong></div><div class="form-row"><label>Full name<input name="name" type="text" placeholder="e.g. Ayesha Khan" required /></label><label>Phone number<input name="phone" type="tel" placeholder="0300 0000000" required /></label></div><label>Email address <span class="optional">Optional</span><input name="email" type="email" placeholder="you@example.com" /></label><label>What can we help with?<select name="service" required><option value="" disabled selected>Select a service</option><option>Family Physician</option><option>Skin Specialist</option><option>Sugar and Diet Specialist</option><option>Physiotherapist</option><option>Nursing Care</option><option>Surgical Wound Dressing</option><option>Bedsore Dressing and Care</option><option>Dengue Treatment</option><option>Typhoid Treatment</option><option>Infertility Treatment and Counseling</option><option>Old Age Bedridden Care</option><option>Child Vaccination at Home</option><option>Child Treatment</option><option>Pneumonia Treatment</option><option>Minor Surgical Treatment</option><option>Minor Orthopaedic Treatment</option><option>Hypertension BP Management</option><option>IV Drip</option><option>Express Blood Test and Reporting Service</option></select></label><label>Reason for visit <span class="optional">Optional</span><textarea name="reason" rows="3" placeholder="Tell us briefly what you need help with..."></textarea></label><button class="button button-primary submit-button" type="submit">Request an appointment <span>↗</span></button><p class="form-note">We respect your privacy. Your details are only used to arrange your care.</p><div class="form-success" role="status" aria-live="polite">Thank you. Your request is ready for our care coordinator.</div></form></div></section>
+
+    <section class="coverage section-pad" id="coverage"><div class="container coverage-inner reveal"><div><p class="eyebrow">We come to you</p><h2>Serving families<br><em>across Karachi.</em></h2></div><div class="coverage-list"><p>Defense Housing Society (DHA)</p><p>Clifton · Tariq Road · PECHS</p><p>Gulshan · North Nazimabad</p><span>And nearby areas</span></div><a class="circle-arrow" href="tel:03008251330" aria-label="Call Dr@home">↗</a></div></section>
+  </main>
+
+  <aside class="chat-widget" aria-label="Dr@home live chat">
+    <div class="chat-panel" id="chat-panel" aria-hidden="true">
+      <div class="chat-header">
+        <div class="chat-agent"><span class="agent-avatar">D</span><span><strong>Dr@home assistant</strong><small><i></i> Usually replies instantly</small></span></div>
+        <button class="chat-close" type="button" aria-label="Close chat">×</button>
+      </div>
+      <div class="chat-messages" id="chat-messages" aria-live="polite">
+        <div class="chat-message bot">Hello. How can we help you today?</div>
+        <div class="chat-message bot">Choose an option or send us a message.</div>
+      </div>
+      <div class="chat-quick-actions"><button type="button" data-chat="I want to book an appointment">Book an appointment</button><button type="button" data-chat="What services do you offer?">View services</button><button type="button" data-chat="Do you cover my area?">Coverage areas</button></div>
+      <form class="chat-form" id="chat-form"><input id="chat-input" type="text" placeholder="Type your message..." autocomplete="off" aria-label="Chat message" required /><button type="submit" aria-label="Send message">↗</button></form>
+      <a class="whatsapp-handoff" href="https://wa.me/923008251330" target="_blank" rel="noreferrer"><span class="whatsapp-symbol">◔</span> Continue on WhatsApp</a>
+    </div>
+    <button class="chat-launcher" id="chat-launcher" type="button" aria-label="Open live chat" aria-expanded="false"><span class="chat-bubble-icon"></span><span class="chat-pulse"></span><strong>Chat with us</strong></button>
+  </aside>
+
+  <footer class="site-footer"><div class="container footer-main"><a class="brand" href="#top"><img src="Drathomelogo.jpeg" alt="Dr@home Healthcare Services" /></a><p>Quality healthcare brought to your doorstep.<br>Because your wellbeing matters.</p><div class="footer-contact"><a href="mailto:info@drathome.com">info@drathome.com</a><a href="tel:03008251330">0300 8251330</a></div></div><div class="container footer-bottom"><span>© 2026 Dr@home Healthcare Services</span><span>Karachi, Pakistan</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
